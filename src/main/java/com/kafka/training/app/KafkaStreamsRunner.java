@@ -29,6 +29,10 @@ public class KafkaStreamsRunner {
 
     private KafkaStreams kafkaStreams;
 
+    public KafkaStreams getKafkaStreams() {
+        return kafkaStreams;
+    }
+
     /**
      * Starts the Kafka Streams when the application is ready.
      * The Kafka Streams topology is built in the {@link KafkaStreamsTopology} class.
